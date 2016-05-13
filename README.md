@@ -4,9 +4,10 @@ To get started do:
 
 source setup.[c]sh
 make
-#copy data file from the test beam to the local area
-#do
-TBdisplay <datafile.root>
+
+then 
+copy data file from the test beam to the local area, and do
+TBdisplay datafile.root
 
 
 Analysis code for T1041 test beam run
