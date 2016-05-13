@@ -1,4 +1,4 @@
-# T1041
+/*! \mainpage T1041 Software Index Page
 
 Analysis code for T1041 test beam run
 
@@ -8,8 +8,6 @@ Directories:
 - rootscript   : misc root code/scripts, recommend using for user code
 - dqm          : dqm utilities, for running online
 - doc          : various documentation
-
-<a href="http://hepcat.phys.virginia.edu/cms/T1041/">Class documentation</a>
 
 ## Quick start guide
 
@@ -74,55 +72,4 @@ the root file name w/o the .root
 ### Run Jordan's WC display  
 * python python/WC_Reader.py file.root (not working properly)
 
-
-
-
-## git cheatsheet
-
-clone a working copy
-
-HTTPS clone: git clone https://github.com/ShashlikTB/T1041.git
-
-SSH clone (do this to allow password-less check in w/ ssh key):  
-git clone git@github.com:ShashlikTB/T1041.git
-
-
-update/add:
-* git add <file>
-* git commit -m "comment"
-
-check it in:
-* git push origin master
-
-checkout remote branch
-* http://stackoverflow.com/questions/1783405/checkout-remote-git-branch
-
-shrink a git repository
-* http://stevelorek.com/how-to-shrink-a-git-repository.html
-
-merge into master branch
-* http://stackoverflow.com/questions/5601931/best-and-safest-way-to-merge-a-git-branch-into-master
-
-merge a single file from a branch
-* git checkout otherbranch myfile.txt
-
-diff of 2 directories, listing filenames only
-* diff -ENwburq DIR1 DIR2 | grep -v \\.git
-
-Git diff of two branches, listing filenames only
-* git diff --name-status master..branchName
-
-Branching tips
-* https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches
-
-BFG Repo Cleaner
-* http://rtyley.github.io/bfg-repo-cleaner/
-
-Adding indivudual files from remote fork
-
- * git remote add \<some name\> remote-uri
- * git fetch \<some name\>
- * git diff [--name-only] HEAD \<some name>\/master
- * git checkout <some name>/master \<file to add\>
-
-
+*/
