@@ -3,7 +3,9 @@
 To get started do:
 
 source setup.[c]sh
+
 make
+
 
 then 
 copy data file from the test beam to the local area, and do
